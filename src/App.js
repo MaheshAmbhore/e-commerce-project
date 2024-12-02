@@ -4,11 +4,11 @@ import ProductDetails from './pages/ProductDetails';
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '/e-commerce-project/',
       element: <HomePage/>
     },
     {
-      path: '/product/:id',
+      path: '/e-commerce-project/product/:id',
       element: <ProductDetails/>
     }
   ]

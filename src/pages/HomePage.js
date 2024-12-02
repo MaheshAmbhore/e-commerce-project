@@ -5,7 +5,7 @@ const HomePage = ()=>{
     const [data, setData] = useState([]);
 
     useEffect(()=>{
-        fetch('/data.json')
+        fetch('/e-commerce-project/data.json')
         .then(response => response.json())
         .then(data => setData(data))
         .catch(error => console.error("Error fatching data:", error))
@@ -20,7 +20,7 @@ const HomePage = ()=>{
                 <div className="flex justify-between h-10 w-50% border-2 border-gray-500 rounded-md m-1 p-1 bg-blue-50">
                     <p>Name: {data.name}</p>
                     <p>Price: {data.price}&#8377;</p>
-                    <Link to={`/product/${data.id}`} >
+                    <Link to={`/e-commerce-project/product/${data.id}`} >
                         <button className="border-2 bg-gray-200 text-sm rounded-md p-0 m-auto">View Details</button>
                     </Link>
                     

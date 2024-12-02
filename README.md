@@ -7,7 +7,7 @@ Product Details Page: Shows detailed information about a selected product, inclu
 
 ### Steps to install dependencies, configure the project, and start the application.
 
-"git clone https://github.com/MaheshAmbhore/ecommerce.git"
+"git clone https://github.com/MaheshAmbhore/e-commerce-project.git"
 "cd repository"
 "npm install"
 "npm start"

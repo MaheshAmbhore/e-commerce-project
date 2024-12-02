@@ -6,7 +6,7 @@ const ProductDetails = () => {
   const [data, setData] = useState(null);
 
   useEffect(()=>{
-    fetch('/data.json')
+    fetch('/e-commerce-project/data.json')
     .then(response => response.json())
     .then(data => {
         const product = data.find(p=> p.id == id)
