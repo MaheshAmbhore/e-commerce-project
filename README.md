@@ -14,3 +14,6 @@ Product Details Page: Shows detailed information about a selected product, inclu
 
 ### Steps to run unit tests.
 "npm test"
+
+### Github pages link
+"https://maheshambhore.github.io/e-commerce-project/"
